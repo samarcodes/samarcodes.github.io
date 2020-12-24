@@ -88,5 +88,6 @@
     }
     #about-me-contents p:last-of-type {
         padding: 0 8%;
+        text-align: center;
     }
 }
