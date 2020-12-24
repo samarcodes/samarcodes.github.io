@@ -1,0 +1,94 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    #about-me-wrapper {
+        padding-top: 50px;
+    }
+    #display-image {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #display-image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    #about-me-contents {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 0;
+        margin-right: 24px;
+    }
+    #about-me-contents h1 {
+        font-size: 55px;
+    }
+    #about-me-contents p {
+        font-size: 28px;
+    }
+    #about-me-contents p:last-of-type {
+        padding: 0 80px;
+        text-align: justify;
+    }
+    
+    .icon {
+        float: left;
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    .project {
+        width: 50%;
+        margin-bottom: 5%;
+    }
+}
+  
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    .header-right {
+        display: none;
+    }
+    #about-me-wrapper {
+        padding-top: 20px;
+    }
+    #display-image {
+        display: block;
+        width: 50%;
+        text-align: center;
+    }
+    #display-image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    #about-me-contents {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-top: 2%;
+        padding-left: 0;
+        margin-right: 24px;
+    }
+    #about-me-contents h1 {
+        font-size: 36px;
+        margin-bottom: 38px;
+    }
+    #about-me-contents p {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 20px;
+        margin-top: 28px;
+    }
+    #about-me-contents p:last-of-type {
+        font-size: 12;
+        padding: 0 20px;
+        text-align: justify;
+    }
+    .icon {
+        float: left;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .project {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+}
