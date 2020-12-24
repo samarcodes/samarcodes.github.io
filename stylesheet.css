@@ -128,8 +128,12 @@ header {
     width: 25%;
 }
 .icon > img {
-    width: 50%;
-    box-shadow: 0 2px 15px #aaa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 55%;
+}
+.icon > img:hover {
+    box-shadow: 0 2px 12px #aaa;
 }
 
 #project-wrapper {
@@ -141,12 +145,17 @@ header {
 }
 .project {
     float: left;
-    width: 50%;
+    width: 33%;
     padding: 0 20px;
     margin-bottom: 5%;
 }
 .project-content {
     border: 1px solid #ccc;
+}
+.project-content p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: black;
 }
 .project img {
     width: 100%;
