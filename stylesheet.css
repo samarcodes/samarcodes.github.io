@@ -125,12 +125,13 @@ header {
 }
 .icon {
     float: left;
-    width: 25%;
+    width: 33%;
 }
 .icon > img {
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 55%;
+    margin-bottom: 8%;
 }
 .icon > img:hover {
     box-shadow: 0 2px 12px #aaa;
