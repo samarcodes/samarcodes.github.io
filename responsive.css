@@ -1,7 +1,7 @@
 /* For Tablets */
 @media all and (max-width: 1000px) {
     #about-me-wrapper {
-        padding-top: 50px;
+        padding-top: 120px;
     }
     #display-image {
         display: block;
@@ -25,11 +25,11 @@
         margin-bottom: 38px;
     }
     #about-me-contents p {
-        font-size: 26px;
+        font-size: 20px;
     }
     #about-me-contents p:last-of-type {
-        font-size: 22px;;
-        padding: 0 80px;
+        font-size: 18px;
+        padding: 0 100px;
         text-align: justify;
     }
     
@@ -53,7 +53,7 @@
         display: none;
     }
     #about-me-wrapper {
-        padding-top: 20px;
+        padding-top: 100px;
     }
     #display-image {
         display: block;
@@ -74,7 +74,7 @@
     }
     
     #about-me-contents p:last-of-type {
-        padding: 0 40px;
+        padding: 0 80px;
     }
     .icon {
         float: left;
@@ -83,50 +83,9 @@
     }
     .project {
         width: 100%;
+        margin-bottom: 12%;
     }
-}
-
-@media all and (max-width: 470px) {
-    .header-right {
-        display: none;
-    }
-    #about-me-wrapper {
-        padding-top: 20px;
-    }
-    #display-image {
-        display: block;
-        width: 50%;
-        text-align: center;
-    }
-    #display-image img {
-        width: 100%;
-        border-radius: 50%;
-    }
-    #about-me-contents {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding-top: 2%;
-        padding-left: 0;
-        margin-right: 24px;
-    }
-    #about-me-contents h1 {
-        font-size: 32px;
-        margin-bottom: 38px;
-    }
-    #about-me-contents p {
-        font-size: 20px;
-    }
-    #about-me-contents p:last-of-type {
-        font-size: 18px;
-        padding: 0 40px;
-    }
-    .icon {
-        float: left;
-        width: 100%;
-        margin-bottom: 10%;
-    }
-    .project {
-        width: 100%;
+    .social-media {
+        padding-left: 100px;
     }
 }
