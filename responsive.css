@@ -52,6 +52,9 @@
     .header-right {
         display: none;
     }
+    .menu-icon {
+    	display: block;
+  	}
     #about-me-wrapper {
         padding-top: 100px;
     }
